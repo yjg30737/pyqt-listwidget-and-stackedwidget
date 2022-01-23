@@ -1,5 +1,5 @@
-from PyQt5.QtWidgets import QApplication, QWidget, QListWidget, QListView, QVBoxLayout, \
-    QStackedWidget, QGraphicsView, QTextEdit
+from PyQt5.QtWidgets import QWidget, QListWidget, QListView, QVBoxLayout, \
+    QStackedWidget
 from pyqt_resource_helper.pyqtResourceHelper import PyQtResourceHelper
 
 
