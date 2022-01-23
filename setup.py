@@ -10,6 +10,7 @@ setup(
     description="PyQt QStackedWidget which can be set current widget by clicking QListWidget's item.",
     url='https://github.com/yjg30737/pyqt-listwidget-and-stackedwidget.git',
     install_requires=[
-        'PyQt5>=5.15'
+        'PyQt5>=5.15',
+        'pyqt-resource-helper @ git+https://git@github.com/yjg30737/pyqt-resource-helper.git@main'
     ]
 )
