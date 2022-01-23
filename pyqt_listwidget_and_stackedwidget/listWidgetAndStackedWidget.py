@@ -1,3 +1,4 @@
+from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QWidget, QListWidget, QListView, QVBoxLayout, \
     QStackedWidget
 from pyqt_resource_helper.pyqtResourceHelper import PyQtResourceHelper
@@ -12,8 +13,8 @@ class ListWidgetAndStackedWidget(QWidget):
         self.__listWidget = QListWidget()
         self.__listWidget.setFlow(QListView.LeftToRight)
         PyQtResourceHelper.setStyleSheet([self.__listWidget], ['style/list_widget.css'])
-        self.__listWidget.setMaximumSize(self.__listWidget.sizeHint().width(),
-                                  self.__listWidget.fontMetrics().boundingRect('M').height() * 2)
+        self.__listWidget.setMaximumHeight(self.__listWidget.fontMetrics().boundingRect('M').height() * 2)
+        self.__listWidget.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
 
         self.__stackedWidget = QStackedWidget()
 
