@@ -7,6 +7,7 @@ setup(
     author_email='yjg30737@gmail.com',
     license='MIT',
     packages=find_packages(),
+    package_data={'pyqt_listwidget_and_stackedwidget.style': ['list_widget.css']},
     description="PyQt QStackedWidget which can be set current widget by clicking QListWidget's item.",
     url='https://github.com/yjg30737/pyqt-listwidget-and-stackedwidget.git',
     install_requires=[
