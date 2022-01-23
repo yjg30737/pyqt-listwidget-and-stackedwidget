@@ -1,0 +1,22 @@
+QListView 
+{ 
+border: 0; 
+background-color: transparent; 
+}
+QListView::item 
+{ 
+border: 0; 
+margin-right: 5; 
+}
+QListView::item:hover 
+{ 
+border: 0; 
+background-color: transparent; 
+color: blue; 
+}
+QListView::item:selected 
+{ 
+border: 0; 
+background-color: transparent; 
+color: purple; 
+}
